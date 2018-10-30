@@ -457,4 +457,73 @@ h1,h2,h3,h4,h5,h6 {
     .other-expertise-description {
       font-size: 14px;
     }
-  }  
+  }
+  
+  /*amazing portfolio*/
+  .wrapper-amazing-portfolio {
+    width: 100%;
+  }
+  
+  .amazing-portfolio {  
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+
+  .amazing-portfolio-content {
+    width: 100%;
+    padding: 91px 0 0 131px;
+  }
+
+  .description-wrapper {
+    max-width: 560px;
+    padding: 15px 0 37px 0;
+  }
+
+  .amazing-portfolio-description {
+    padding-bottom: 33px;
+  }
+
+  .amazing-portfolio-item {
+    max-width: 490px;
+    padding-bottom: 25px;
+  }
+  .amazing-portfolio-img {
+    padding-top: 59px;
+  }
+
+  @media (max-width: 1111px) {
+    .amazing-portfolio-content {
+      padding: 40px 0 0 40px;
+    }
+  }
+
+  @media (max-width: 932px) {
+    .amazing-portfolio {  
+      justify-content: center;
+    }
+    .amazing-portfolio-content {
+      padding: 25px 0 0 25px;
+    }
+
+    .amazing-portfolio-img {
+      display: none;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .description-wrapper {
+      padding: 0 0 18px 0;
+    } 
+
+    .amazing-portfolio-description {
+      padding-bottom: 13px;
+    }
+
+    .amazing-portfolio-item {
+      padding-bottom: 5px;
+    }
+  }
